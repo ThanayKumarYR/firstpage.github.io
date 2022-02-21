@@ -99,25 +99,68 @@ body{
     transform: scale(1.1);
 }
 
+@media only screen and (max-device-width: 947px){
 
-
-
-@media only screen and (max-width: 947px){
     .box{
+        width: 50% ;
+        /* height: 40% ; */
+        
+    }
+
+    .box h1{
+        font-size: 60px;
+    }
+    .box input[type="text"],
+    .box input[type="password"]
+    
+    {
+        font-size: 30px;
+        margin: 15px auto;
         width: 70%;
-        height: 90%;
+    }
+    .box input[type="submit"]{
+        font-size: 30px;
+        margin-top: 40px;
     }
 }
-@media only screen and  (max-width: 650px){
+
+
+@media only screen and (max-device-width: 800px){
+
     .box{
-        width: 60%;
+        width: 70% ;
+        /* height: 40% ; */
+    }
+    .box h1{
+        font-size: 60px;
+    }
+    .box input[type="text"],
+    .box input[type="password"]
+    
+    {
+        font-size: 30px;
+        margin: 15px auto;
+        width: 70%;
+    }
+    .box input[type="submit"]{
+        font-size: 30px;
+        margin-top: 40px;
     }
 }
+
+
+@media only screen and  (max-device-width: 650px){
+
+    .box{
+        width: 60% ;
+    }
+}
+
 
 @media only screen and (max-device-width: 500px){
     
     .box{
-        width: 80%;
+        width: 80% ;
     }
     .box h1{
         font-size: 60px;
