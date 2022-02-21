@@ -126,7 +126,7 @@ body{
         width: 80%;
     }
 }
-@media only screen and (max-device-width: 340px){
+@media only screen and (max-device-width: 500px){
     
     .box{
         width: 80%;
